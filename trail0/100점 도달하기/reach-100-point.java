@@ -6,19 +6,19 @@ class Main {
         int n = sc.nextInt();
         for (; n < 101; n++) {
             if (n >= 90) {
-                System.out.println("A");
+                System.out.print("A ");
             }
             else if (n >= 80) {
-                System.out.println("B");
+                System.out.print("B ");
             }
             else if (n >= 70) {
-                System.out.println("C");
+                System.out.print("C ");
             }
             else if (n >= 60) {
-                System.out.println("D");
+                System.out.print("D ");
             }
             else {
-                System.out.println("F");
+                System.out.print("F ");
             }
         }
     }
